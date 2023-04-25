@@ -1,2 +1,2 @@
 # EcoDataLab - Informatics School Capstone 2023
-Team E4 for the 2023 Info Capstones solution in collaboration with the EcoDataLab
+Team E4's Landing Page for 2023 Info Capstone in collaboration with the EcoDataLab.
