@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+}
+
+/*Allow content to go across the whole page*/
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+nav {
+    background-color: rgb(26, 81, 56);
+}
+
+.active {
+    color: white;
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+h1 {
+    font-family: 'Raleway';
+    color:white;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h2 {
+    font-family: 'Montserrat', 'Open Sans', sans-serif;
+    color: rgb(26, 81, 56);
+    font-size: 2em;
+}
+
+header .introduction {
+    color: rgb(26, 81, 56);
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 1rem;
+    background-image: url('../img/background-photo.jpg');
+    background-size: cover;
+    width: 100%;
+}
+
+.normal{
+    padding: 1em;
+}
+
+.overview {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.intro-images {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 2em;
+}
+
+.image-card {
+    width: 20%;
+    margin: 1em 1em;
+    margin-left: 0;
+    text-align: center;
+}
+
+.image-card img {
+    border-radius: 50%;
+
+}
+
+.overview, .summary, .stakeholders {
+    margin: 1.5em;
+}
