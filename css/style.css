@@ -79,6 +79,6 @@ header .introduction {
 
 }
 
-.overview, .summary, .stakeholders {
+.overview, .summary, .stakeholders .benefits {
     margin: 1.5em;
 }
