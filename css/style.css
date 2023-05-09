@@ -32,7 +32,7 @@ h1 {
     padding: 10px;
     font-weight: 700;
     font-size: 2rem;
-}
+} 
 
 h2 {
     font-family: 'Montserrat', 'Open Sans', sans-serif;
@@ -48,6 +48,10 @@ header .introduction {
     background-image: url('../img/background-photo.jpg');
     background-size: cover;
     width: 100%;
+}
+
+.introduction h2 {
+    font-weight: 700;
 }
 
 .normal{
@@ -79,6 +83,6 @@ header .introduction {
 
 }
 
-.overview, .summary, .stakeholders .benefits {
+.overview, .summary, .stakeholders, .benefits {
     margin: 1.5em;
 }
