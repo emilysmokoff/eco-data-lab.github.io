@@ -80,6 +80,8 @@ header .introduction {
 
 .image-card img {
     border-radius: 50%;
+    width: 200px;
+    height: 250px;
 
 }
 
